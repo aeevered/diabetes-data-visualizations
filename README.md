@@ -1,46 +1,28 @@
-# Tidepool Data Science Project Template
-## Creating a new repository from this template
-Manually create a new repo from this [template in github](https://github.com/tidepool-org/data-science-project-template/generate);
-github directions are [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-
-## New Repo Checklist & Instructions
-- [ ] Update repo settings in github (manual process)
-    * [ ] Update **Settings/Options/Repository name**
-        * Name follows the `<team (optional)> - <type(optional)> - <one-to-three-word-description> - <initials (optional)>` in `lowercase-dash-format`.
-    Examples:
-        * `icgm-sensitivity-analysis` is used by all of Tidepool so no team is needed and is considered production code so no type is needed.
-        * `data-scence-donor-data-pipeline` is only used by Data Science
-        * `data-science-template-repository` is a template (type) used by Data Science Team
-        * `data-science-explore-<short-description>` type of work is exploratory
-        * `data-science-explore-<short-description>-etn` exploratory solo work has initials at the end
-    * [ ] Update **Settings/Options/Manage access**
-        - [ ] Invite data-science-admins team and give admin access
-        - [ ] Invite Data Science team and give write access
-    * [ ] Update **Settings/Options/Manage access/Branch protection rules**
-        - [ ] Set _Branch name pattern_ to `master`
-        - [ ] Check _Require pull request reviews before merging_
-        - [ ] Set _Required approving reivews:_ to 1 for non-production code and 2 for production code
-        - [ ] Check _Dismiss stale pull request approvals when new commits are pushed_
-        - [ ] TODO: add in travis ci instructions via _Require status checks to pass before merging_
-- [ ] Fill in this readme. Everything in [  ]'s should be changed and/or filled in.
-- [ ] After completing this checklist, move the completed checklist to the bottom of the readme
-- [ ] Delete everything above the [Project Name]
-
-
-# [Project Name]
-
-#### -- Project Status: [Active, On-Hold, Completed]
-#### -- Project Disclaimer: This work is for [Exploration, Development, Production]
+# Exploration of Dash Data Visualization Framework for Viewing Tidepool Donor Data
+#### -- Project Status: Active
+#### -- Project Disclaimer: This work is for Exploration
 
 ## Project Objective
-The purpose of this project is to [___].
+The purpose of this project is to explore the use of the plotly Dash visualization framework 
+for building data visualization web applications as a way to share and explore Tidepool Donor Data.
 
 ## Definition of Done
-This phase of the project will be done when [___].
+This phase of the project will be done when the exploratory phase of the Dash tools
+is completed to a point that the work should be incorporated into Data Science Team 
+visualization tools (`data-science--tool--visualization-tools`).
 
 ## Project Description
-(Add a short paragraph with some details, Why?, How?, Link to Jira and/or Confluence)
-In order to learn/do [___], we did [___].
+The repository includes example
+Dash applications (`dash-example1.py`, `dash-example2.py`, `dash-example3.py`, `dash-example4.py`).
+The standard Dash examples are from the Dash framework tutorials from this 
+[Dash User Guide](https://dash.plotly.com/). 
+
+The repository also includes two different work in progress exploratory visualizations of the Tidepool donor
+data (`visualize-donor-data-barplot.py`,`visualize-donor-data-scatterplot.py`). 
+
+![](donor-data-barplot.gif) 
+
+![](donor-data-scatterplot.gif)
 
 ### Technologies (Update this list)
 * Python (99% of the time)
@@ -48,6 +30,9 @@ In order to learn/do [___], we did [___].
 * Pandas for working with data (99% of the time)
 * Google Colab for sharing examples
 * Plotly for visualization
+* Dash for visualization/web applications
+
+Not currently using but may further along in project (update as needed):
 * Pytest for testing
 * Travis for continuous integration testing
 * Black for code style
@@ -55,6 +40,7 @@ In order to learn/do [___], we did [___].
 * [Sphinx](https://www.sphinx-doc.org/en/master/) for documentation
 * Numpy docstring format
 * pre-commit for githooks
+* GitHub pages for sharing visualizations
 
 ## Getting Started with the Conda Virtual Environment
 1. Install [Miniconda](https://conda.io/miniconda.html). CAUTION for python virtual env users: Anaconda will automatically update your .bash_profile
@@ -84,10 +70,10 @@ This may also make it easier to convert existing packages into pypi packages. We
 in conda using the conda-environment.yml file when packages are not available via pip (e.g., R and plotly-orca).
 
 ## Getting Started with this project
-1. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-(If using offline data mention that and how they may obtain the data from the froup)
-2. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-3. (Finishing filling out this list)
+The aggregated Tidepool Donor Data
+needed to run the the dash apps is kept on Tidepool's Internal
+Google Drive [here](https://drive.google.com/file/d/1rGGAWDNDre51nqndS4QJtnVwibJbla-P/view?usp=sharing).
+
 
 ## Contributing Guide
 1. All are welcome to contribute to this project.
@@ -103,16 +89,15 @@ or `project_data_figure-2020-04-25-v-0-1-0.png`.
 NOTE: PHI data is never stored in github and the .gitignore file includes this requirement as well.
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Colab Notebook/Figures/Website](link)
+
 
 ## Tidepool Data Science Team
 |Name (with github link)    |  [Tidepool Slack](https://tidepoolorg.slack.com/)   |
 |---------|-----------------|
-|[Ed Nykaza](https://github.com/[ed-nykaza])| @ed        |
-|[Jason Meno](https://github.com/[jameno]) |  @jason    |
-|[Cameron Summers](https://github.com/[scaubrey]) |  @Cameron Summers    |
+|[Ed Nykaza](https://github.com/ed-nykaza)| @ed        |
+|[Jason Meno](https://github.com/jameno) |  @jason    |
+|[Cameron Summers](https://github.com/scaubrey) |  @Cameron Summers    |
+|[Anne Evered](https://github.com/aeevered) |  @anne    |
 
-## Known TODO items
-- [ ] automate the process of finding all of the the TODO: comments in the code and put link here.
 
-## Initial Setup Checklist
+
