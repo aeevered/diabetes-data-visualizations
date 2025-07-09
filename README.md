@@ -1,8 +1,7 @@
 # Exploration of Tidepool Diabetes Data
 
 ## Project Objective
-The purpose of this project is to explore the use of the plotly Dash visualization framework 
-for building data visualization web applications as a way to share and explore Tidepool Donor Data.
+The purpose of this project is to build data visualization web applications as a way to share and explore Tidepool Diabetes Data using Plotly Dash.
 
 ## Project Description
 The repository includes example
@@ -62,11 +61,8 @@ We take this approach to make our code compatible with people that prefer to use
 This may also make it easier to convert existing packages into pypi packages. We only install packages directly
 in conda using the conda-environment.yml file when packages are not available via pip (e.g., R and plotly-orca).
 
-## Getting Started with this project
-The aggregated Tidepool Donor Data
-needed to run the the dash apps is kept on Tidepool's Internal
-Google Drive [here](https://drive.google.com/file/d/1rGGAWDNDre51nqndS4QJtnVwibJbla-P/view?usp=sharing).
-
+## Getting Started with this project / Data Requirements
+This project requires aggregated Tidepool data to run the dash apps.
 NOTE: PHI data is never stored in github and the .gitignore file includes this requirement as well.
 
 
