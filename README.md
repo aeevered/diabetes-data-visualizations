@@ -1,15 +1,8 @@
 # Exploration of Dash Data Visualization Framework for Viewing Tidepool Donor Data
-#### -- Project Status: Active
-#### -- Project Disclaimer: This work is for Exploration
 
 ## Project Objective
 The purpose of this project is to explore the use of the plotly Dash visualization framework 
 for building data visualization web applications as a way to share and explore Tidepool Donor Data.
-
-## Definition of Done
-This phase of the project will be done when the exploratory phase of the Dash tools
-is completed to a point that the work should be incorporated into Data Science Team 
-visualization tools (`data-science--tool--visualization-tools`).
 
 ## Project Description
 The repository includes example
@@ -74,30 +67,7 @@ The aggregated Tidepool Donor Data
 needed to run the the dash apps is kept on Tidepool's Internal
 Google Drive [here](https://drive.google.com/file/d/1rGGAWDNDre51nqndS4QJtnVwibJbla-P/view?usp=sharing).
 
-
-## Contributing Guide
-1. All are welcome to contribute to this project.
-1. Naming convention for notebooks is
-`[short_description]-[initials]-[date_created]-[version]`,
-e.g. `initial_data_exploration-jqp-2020-04-25-v-0-1-0.ipynb`.
-A short `_` delimited description, the creator's initials, date of creation, and a version number,
-1. Naming convention for data files, figures, and tables is
-`[PHI (if applicable)]-[short_description]-[date created or downloaded]-[code_version]`,
-e.g. `raw_project_data_from_mnist-2020-04-25-v-0-1-0.csv`,
-or `project_data_figure-2020-04-25-v-0-1-0.png`.
-
 NOTE: PHI data is never stored in github and the .gitignore file includes this requirement as well.
-
-## Featured Notebooks/Analysis/Deliverables
-
-
-## Tidepool Data Science Team
-|Name (with github link)    |  [Tidepool Slack](https://tidepoolorg.slack.com/)   |
-|---------|-----------------|
-|[Ed Nykaza](https://github.com/ed-nykaza)| @ed        |
-|[Jason Meno](https://github.com/jameno) |  @jason    |
-|[Cameron Summers](https://github.com/scaubrey) |  @Cameron Summers    |
-|[Anne Evered](https://github.com/aeevered) |  @anne    |
 
 
 
