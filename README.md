@@ -1,4 +1,4 @@
-# Exploration of Tidepool Diabetes Donor Data Using Dash Data Visualization Framework
+# Exploration of Diabetes Data Using Dash Data Visualization Framework
 
 ## Project Objective
 The purpose of this project is to explore the use of the plotly Dash visualization framework 
