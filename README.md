@@ -17,12 +17,10 @@ data (`visualize-donor-data-barplot.py`,`visualize-donor-data-scatterplot.py`).
 ![](donor-data-scatterplot.gif)
 
 ### Technologies (Update this list)
-* Python (99% of the time)
-* [Anaconda](https://www.anaconda.com/) for our virtual environments
-* Pandas for working with data (99% of the time)
-* Google Colab for sharing examples
-* Plotly for visualization
-* Dash for visualization/web applications
+* Python
+* [Anaconda](https://www.anaconda.com/)
+* Pandas
+* Plotly Dash for visualization
 
 ## Getting Started with the Conda Virtual Environment
 1. Install [Miniconda](https://conda.io/miniconda.html). CAUTION for python virtual env users: Anaconda will automatically update your .bash_profile
