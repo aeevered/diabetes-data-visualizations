@@ -24,16 +24,6 @@ data (`visualize-donor-data-barplot.py`,`visualize-donor-data-scatterplot.py`).
 * Plotly for visualization
 * Dash for visualization/web applications
 
-Not currently using but may further along in project (update as needed):
-* Pytest for testing
-* Travis for continuous integration testing
-* Black for code style
-* Flake8 for linting
-* [Sphinx](https://www.sphinx-doc.org/en/master/) for documentation
-* Numpy docstring format
-* pre-commit for githooks
-* GitHub pages for sharing visualizations
-
 ## Getting Started with the Conda Virtual Environment
 1. Install [Miniconda](https://conda.io/miniconda.html). CAUTION for python virtual env users: Anaconda will automatically update your .bash_profile
 so that conda is launched automatically when you open a terminal. You can deactivate with the command `conda deactivate`
