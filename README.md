@@ -9,7 +9,7 @@ Dash applications (`dash-example1.py`, `dash-example2.py`, `dash-example3.py`, `
 The standard Dash examples are from the Dash framework tutorials from this 
 [Dash User Guide](https://dash.plotly.com/). 
 
-The repository also includes two different work in progress exploratory visualizations of the Tidepool donor
+The repository also includes two different exploratory visualizations of the Tidepool donor
 data (`visualize-donor-data-barplot.py`,`visualize-donor-data-scatterplot.py`). 
 
 ![](donor-data-barplot.gif) 
