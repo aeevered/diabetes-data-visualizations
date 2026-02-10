@@ -3,7 +3,8 @@
 ## Project Objective
 The purpose of this project is to build data visualization web applications as a way to share and explore Tidepool Diabetes Data using Plotly Dash.
 
-https://www.tidepool.org/blog/celebrating-10000-donations
+[Celebrating 10000 Donations Blog Post](https://www.tidepool.org/blog/celebrating-10000-donations)
+
 
 ## Project Description
 The repository includes example
@@ -12,7 +13,9 @@ The standard Dash examples are from the Dash framework tutorials from this
 [Dash User Guide](https://dash.plotly.com/). 
 
 The repository also includes two different exploratory visualizations of the Tidepool donor
-data (`visualize-donor-data-barplot.py`,`visualize-donor-data-scatterplot.py`). 
+data (`visualize-donor-data-barplot.py`,`visualize-donor-data-scatterplot.py`).
+
+[visualize-donor-data-barplot.py](src/visualization/visualize-donor-data-barplot.py). 
 
 ![](donor-data-barplot.gif) 
 
