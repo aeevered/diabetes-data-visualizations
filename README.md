@@ -3,6 +3,8 @@
 ## Project Objective
 The purpose of this project is to build data visualization web applications as a way to share and explore Tidepool Diabetes Data using Plotly Dash.
 
+https://www.tidepool.org/blog/celebrating-10000-donations
+
 ## Project Description
 The repository includes example
 Dash applications (`dash-example1.py`, `dash-example2.py`, `dash-example3.py`, `dash-example4.py`).
