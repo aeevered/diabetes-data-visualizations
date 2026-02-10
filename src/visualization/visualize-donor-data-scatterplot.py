@@ -1,7 +1,5 @@
 __author__ = "Anne Evered"
 
-# This is a work in progress example of a dashboard for viewing Tidepool Donor Data using plotly Dash.
-
 # Import Packages
 import dash
 import dash_core_components as dcc
