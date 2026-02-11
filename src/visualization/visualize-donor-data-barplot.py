@@ -7,9 +7,6 @@ __author__ = "Anne Evered"
 #
 # The code for creating this figure is pulled directly from this
 # Google Colab https://colab.research.google.com/drive/1JYn4B0Smc2l7H7_uF6gXeFOPpwkDi_8m?authuser=2#scrollTo=96Z-nEkblH2n
-#
-# This code needs some refactoring (cleaning up and splitting into functions, etc.),
-# so this is meant primarily as an example of using Dash this way.
 
 
 # Import Packages
